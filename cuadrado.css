@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.aside{
+    width: 16%;
+    min-height: 250px;
+    height: 100vh;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+}
+
+a img{
+    width: 100%;
+    height: 30%;
+}
+.img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.aside-list{
+    height: 70%;
+    background-color:#1a1a1a ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aside-list li {
+    font-size: 28px;
+    color: white;
+}
+
+.aside-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.main{
+    width: 84%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+     background-color: #3d3d3d;
+}
+.main h1{
+    font-size: 44px;
+    color: white;
+    background-color: #3d3d3d;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 300px;
+}
+
+.container-cuadrado{
+    width: 90%;
+    height: 48%;
+    background-color: #3d3d3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: #454545;
+    margin: 26px;
+    border: 1px solid rgba(245, 243, 243, 0.4);
+}
+.lado-top{
+    position: relative;
+    bottom: 124px;
+    left: 274px;
+}
+.lado-bottom{
+    position: relative;
+    top: 126px;
+    left: 214px;
+}
+
+
+.container-calculo{
+    align-self: center;
+    width: 56%;
+    height: 36%;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-color: #474747;
+    display: flex;
+    justify-content: center;
+    color: white;
+    opacity: 0.8;
+}
+.lado-left{
+    margin-right: 40px;
+    margin-top: 50px;
+}
+.lado-left p,
+.lado-right p{
+    font-size: 18px;
+    text-align: center;
+}
+.lado-left input{
+    margin-top: 18px;
+    height: 30px;
+    width: 200px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 5px;
+}
+.lado-right{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.lado-right select{
+    margin-top: 18px;
+    height: 30px;
+    width: 200px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.btn-calcular{
+
+    height: 34px;
+    width: 150px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    position: relative;
+    bottom: 90px;
+    left: 498px;
+    opacity: 0.8;
+    font-size: 14px;
+    color:black ;
+    letter-spacing: 2px;
+
+}
