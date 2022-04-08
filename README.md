@@ -3,4 +3,4 @@
 practica de maquetado.
 Diseño de figuras geomtericas
 
-https://xein-dev.github.io/FigurasGeometricas/
+https://Suarez-dev.github.io/FigurasGeometricas/
